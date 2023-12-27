@@ -26,15 +26,15 @@ section#celular{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -50%);
     background: url(../imagens/celular.png) no-repeat;
     height: 595px;
     width: 307px;
 }
 
 section#logos {
+    position: relative;
     text-align: right;
-    margin-left: 40px;
 }
 
 section#logos img{

@@ -29,7 +29,7 @@ section#celular{
     transform: translate(-50%, -50%);
     background: url(../imagens/celular.png) no-repeat;
     height: 595px;
-    width: 307px;
+    width: 309px;
 }
 @media screen and (max-width: 535px) {
     section#celular{
@@ -39,7 +39,7 @@ section#celular{
         transform: translate(-60%, -50%);
         background: url(../imagens/celular.png) no-repeat;
         height: 595px;
-        width: 307px;
+        width: 309px;
     }
 }
 section#logos {
@@ -66,6 +66,6 @@ iframe#tela{
   position: relative;
   top: 21px;
   left:23px ;
-  width:266px ;
+  width:270px ;
   height:564px;
 }

@@ -26,10 +26,21 @@ section#celular{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-60%, -50%);
+    transform: translate(-50%, -50%);
     background: url(../imagens/celular.png) no-repeat;
     height: 595px;
     width: 307px;
+}
+@media screen and (max-width: 535px) {
+    section#celular{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-60%, -50%);
+        background: url(../imagens/celular.png) no-repeat;
+        height: 595px;
+        width: 307px;
+    }
 }
 section#logos {
     position: relative;

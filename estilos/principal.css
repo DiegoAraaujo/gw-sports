@@ -23,6 +23,7 @@ main{
 }
 
 section#celular{
+    z-index: 3;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,6 +34,7 @@ section#celular{
 }
 @media screen and (max-width: 535px) {
     section#celular{
+        z-index: 3;
         position: absolute;
         top: 50%;
         left: 50%;

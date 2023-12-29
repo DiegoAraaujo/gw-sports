@@ -71,3 +71,45 @@ iframe#tela{
   width:270px ;
   height:564px;
 }
+@media screen and (max-height: 300px){
+    section#celular{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: url(../imagens/celularp.png) no-repeat;
+        height: 200px;
+        width: 364px;
+    }
+    
+    section#logos {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -240%);
+        text-align: center;
+    }
+    
+    section#logos img{
+        box-sizing: border-box;
+        margin: 15px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    
+    section#logos img:hover{
+        border: 1px rgba(255, 255, 255, 0.692) solid;
+        transform: translate(-3px, -3px);
+        transition: transform 0.3s;
+    }
+    
+    iframe#tela{
+      border: none;
+      border-radius: 25px;
+      position: relative;
+      top: 13px;
+      left:13px ;
+      width:345px ;
+      height:164px;
+    }
+}

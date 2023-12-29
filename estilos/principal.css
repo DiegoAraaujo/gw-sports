@@ -71,7 +71,7 @@ iframe#tela{
   width:270px ;
   height:564px;
 }
-@media screen and (max-height: 300px){
+@media screen and (max-height: 400px){
     section#celular{
         position: absolute;
         top: 50%;

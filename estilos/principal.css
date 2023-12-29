@@ -71,7 +71,7 @@ iframe#tela{
   width:270px ;
   height:564px;
 }
-@media screen and (max-height: 600px){
+@media screen and (max-height: 500px){
     section#celular{
         position: absolute;
         top: 50%;
@@ -84,16 +84,13 @@ iframe#tela{
     
     section#logos {
         position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -240%);
-        text-align: center;
+        text-align: right;
     }
     
     section#logos img{
         box-sizing: border-box;
-        margin: 15px;
-        width: 30px;
+        margin: 10px;
+        width: 35px;
         border-radius: 50%;
     }
     

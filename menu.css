@@ -90,3 +90,34 @@ nav {
         left: 0;
     }
 }
+.menu-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .animated-block {
+    position: fixed;
+    top: 0;
+    left: -300px; 
+    width: 300px;
+    height: 100%;
+    background-color: #555;
+    transition: left 0.5s ease-out; 
+  }
+  
+  .menu-visible {
+    left: 0;
+  }
+  
+  

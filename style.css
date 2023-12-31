@@ -10,11 +10,6 @@ body{
     background-color: rgb(44, 44, 44);
 }
 
-header > img {
-    padding-top: 20px;
-    display: block;
-    margin: auto;
-}
 #gw{
     margin: auto;
     width: 240px;

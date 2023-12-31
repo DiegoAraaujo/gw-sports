@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+
+header > img {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+header > div > p{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+#menu2 {
+    padding: 15px;
+    width: 460px;
+    margin: auto;
+}
+#menu2 a{
+    display: inline;
+    text-decoration: none;
+    color: #f2ac18;
+    padding: 15px;
+}
+#menu2 p{
+    display: inline;
+    text-decoration: none;
+    color: #f2ac18;
+    padding: 15px;
+}
+@media screen and (max-width: 700px) {
+    header > div > p{
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        max-width: 400px;
+    }
+}
+main{
+    background-color: aliceblue;
+}
+main section {
+    margin: auto;
+    max-width: 1085px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+main figure {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main div{
+    text-align: center;
+    margin: 25px;
+}
+
+main figcaption{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+    background-color: darkred;
+}
+
+main  a{
+    color: white;
+    text-decoration: none;
+}
+
+main  figcaption:hover{
+    background-color: rgb(65, 2, 2);
+}
+
+main  img{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295),
+              -5px -5px 10px rgba(0, 0, 0, 0.295),
+              5px -5px 10px rgba(0, 0, 0, 0.295);
+    
+    border: solid rgb(190, 190, 190) 2px;  
+}

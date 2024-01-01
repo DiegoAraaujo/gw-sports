@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2c2c2c;
+}
+
+#gw{
+    margin: auto;
+    width: 240px;
+}
+
+header > div > p{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+#menu2 {
+    padding: 30px;
+    width: 435px;
+    margin: auto;
+}
+#menu2 a{
+    display: inline;
+    text-decoration: none;
+    color: #f2ac18;
+    padding: 10px;
+}
+#menu2 a:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+    color: #2c2c2c;
+    transition: background-color 0.4s;
+}
+#menu2 p{
+    
+    display: inline;
+    text-decoration: none;
+    color: #f2ac18;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 500px){
+    #menu2 {
+        padding: 15px;
+        width: 375px;
+        margin: auto;
+    }
+    #menu2 a{
+        display: inline;
+        text-decoration: none;
+        color: #f2ac18;
+        padding: 15px;
+        font-size: 12px;
+    }
+    #menu2 p{
+        font-size: 15px;
+        display: inline;
+        text-decoration: none;
+        color: #f2ac18;
+        padding: 12px;
+    }
+}
+@media screen and (max-width: 700px) {
+    header > div > p{
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        max-width: 400px;
+    }
+}
+main{
+    background-color: aliceblue;
+}
+main section {
+    margin: auto;
+    max-width: 1085px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+main figure {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main div{
+    text-align: center;
+    margin: 10px;
+}
+
+main figcaption{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+    background-color: darkred;
+}
+
+main  a{
+    color: white;
+    text-decoration: none;
+}
+
+main  figcaption:hover{
+    background-color: rgb(65, 2, 2);
+}
+
+main  img{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295),
+              -5px -5px 10px rgba(0, 0, 0, 0.295),
+              5px -5px 10px rgba(0, 0, 0, 0.295);
+    
+    border: solid rgb(190, 190, 190) 2px;  
+}

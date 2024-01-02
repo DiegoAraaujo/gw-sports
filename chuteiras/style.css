@@ -58,6 +58,7 @@ header > div > p{
         text-align: center;
     }
     #menu2 a{
+        font-size:12px ;
         text-align: center;
         display: inline;
         text-decoration: none;

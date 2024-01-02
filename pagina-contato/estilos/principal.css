@@ -110,3 +110,27 @@ iframe#tela{
       height:164px;
     }
 }
+    #voltar{
+        box-shadow: 
+        inset 5px 0 5px -5px #000000,
+        inset 0 5px 5px -5px #000000, 
+        inset -5px 0 5px -5px #000000, 
+        inset 0 -5px 5px -5px #000000;
+        border: 1px solid white;
+        padding: 5px;
+        position: relative;
+        top: 10px;
+        margin: auto;
+        background-color:  #f2ac18;
+        text-align: center;
+        width: 50px;
+        border-radius: 5px;
+    }
+    #voltar:hover{
+        background-color:  #a06d00;
+    }
+    #voltar a{
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }

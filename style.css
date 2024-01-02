@@ -15,21 +15,25 @@ body{
     width: 240px;
 }
 
-header > div > p{
-    margin: auto;
+header  p{
     text-align: center;
+    margin: auto;
     color: white;
-    font-weight: bolder;
+    padding-bottom: 10px;
 }
 #menu2 {
-    padding: 30px;
-    width: 435px;
+    background-color: #f2ac18;
+    padding: 15px;
+    width: 100vw;
     margin: auto;
+    text-align: center;
 }
 #menu2 a{
-    display: inline;
+    border-radius: 10px;
+    background-color: #db9702;
+    text-align: center;
     text-decoration: none;
-    color: #f2ac18;
+    color: #ffffff;
     padding: 10px;
 }
 #menu2 a:hover{
@@ -48,16 +52,18 @@ header > div > p{
 
 @media only screen and (max-width: 500px){
     #menu2 {
+        background-color: #f2ac18;
         padding: 15px;
-        width: 375px;
+        width: 100vw;
         margin: auto;
+        text-align: center;
     }
     #menu2 a{
+        text-align: center;
         display: inline;
         text-decoration: none;
-        color: #f2ac18;
-        padding: 15px;
-        font-size: 12px;
+        color: #ffffff;
+        padding: 10px;
     }
     #menu2 p{
         font-size: 15px;

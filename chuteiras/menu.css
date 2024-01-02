@@ -35,13 +35,12 @@ nav {
 .menu {
     border-radius: 10px;
     display: none;
-    width: 200px;
+    width: 215px;
     background-color: #ffffff;
     position: absolute;
     top:18px;
     right: 10px;
     opacity: 0;
-    transition: opacity 0.3s ease;
 }
 
 .menu.show {
@@ -68,10 +67,17 @@ nav {
 }
 
 .menu a {
+    padding: 5px;
     text-decoration: none;
     color: #333;
     font-size: 18px;
     font-weight: bolder;
+}
+.menu a:hover {
+    border-radius: 5px;
+    background-color: #333 ;
+    color: white;
+    transition: background-color 0.5s;
 }
 
 .menu-container {

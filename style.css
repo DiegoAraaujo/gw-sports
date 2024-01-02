@@ -45,12 +45,12 @@ header > div > p{
     transition: background-color 0.4s;
 }
 #menu2 p{
-    
     display: inline;
     text-decoration: none;
     color: #db9702;
     padding: 15px;
 }
+
 @media only screen and (max-width: 500px){
     #menu2 {
         background-color: #f2ac18;

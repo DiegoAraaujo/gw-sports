@@ -63,13 +63,14 @@ header > div > p{
         text-decoration: none;
         color: #ffffff;
         padding: 10px;
+        font-size: 10px;
     }
     #menu2 p{
         font-size: 12px;
         display: inline;
         text-decoration: none;
         color: #f2ac18;
-        padding: 12px;
+        padding: 11px;
     }
 }
 @media screen and (max-width: 700px) {

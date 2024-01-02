@@ -33,12 +33,13 @@ nav {
 }
 
 .menu {
+    border-radius: 10px;
     display: none;
-    width: 250px;
+    width: 200px;
     background-color: #ffffff;
     position: absolute;
-    top:20px;
-    right: 15px;
+    top:18px;
+    right: 10px;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
@@ -70,24 +71,9 @@ nav {
     text-decoration: none;
     color: #333;
     font-size: 18px;
+    font-weight: bolder;
 }
 
-@media only screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
-
-    .menu-toggle {
-        margin-top: 10px;
-    }
-
-    .menu {
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-    }
-}
 .menu-container {
     position: relative;
     height: 100vh;

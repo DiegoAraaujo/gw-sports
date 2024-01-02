@@ -50,7 +50,6 @@ header > div > p{
     color: #db9702;
     padding: 15px;
 }
-
 @media only screen and (max-width: 500px){
     #menu2 {
         background-color: #f2ac18;

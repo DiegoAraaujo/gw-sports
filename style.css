@@ -122,9 +122,14 @@ main  figcaption:hover{
 }
 
 main  img{
+    box-sizing: border-box;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295),
               -5px -5px 10px rgba(0, 0, 0, 0.295),
               5px -5px 10px rgba(0, 0, 0, 0.295);
     
     border: solid rgb(190, 190, 190) 2px;  
+}
+main img:hover{
+    border: solid #2c2c2c 1px;
+    transform: translate(-5px,-5px);
 }

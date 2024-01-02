@@ -109,4 +109,13 @@ nav {
   .menu-visible {
     left: 0;
   }
-    
+  nav.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .menu.show {
+    display: block;
+    opacity: 1;
+  }   
